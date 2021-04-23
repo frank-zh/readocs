@@ -1,0 +1,344 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>3. 创建Sphinx工程 &mdash; Sphinx_Try v1.0 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="1. 标题学习" href="../%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/%E6%A0%87%E9%A2%98.html" />
+    <link rel="prev" title="2. 安装Sphinx" href="%E5%AE%89%E8%A3%85Sphinx.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Sphinx_Try
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Sphinx文档方案</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="Sphinx%E7%AE%80%E4%BB%8B.html">1. Sphinx and RST</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%E5%AE%89%E8%A3%85Sphinx.html">2. 安装Sphinx</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">3. 创建Sphinx工程</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#id1">3.1. 创建文档工程</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id2">3.2. 设置主题</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id4">3.3. 生成文档</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id5">3.4. 预览文档</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">基础语法</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/%E6%A0%87%E9%A2%98.html">1. 标题学习</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/%E6%AE%B5%E8%90%BD.html">2. 段落学习</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/%E5%88%97%E8%A1%A8.html">3. 列表学习</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/%E5%9D%97.html">4. 块学习</a></li>
+</ul>
+<p class="caption"><span class="caption-text">中级语法</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../%E4%B8%AD%E7%BA%A7%E8%AF%AD%E6%B3%95/%E8%A1%A8%E6%A0%BC.html">1. 表格学习</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../%E4%B8%AD%E7%BA%A7%E8%AF%AD%E6%B3%95/%E6%B0%B4%E5%B9%B3%E7%BA%BF.html">2. 水平线学习</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../%E4%B8%AD%E7%BA%A7%E8%AF%AD%E6%B3%95/%E6%98%BE%E5%BC%8F%E6%A0%87%E8%AE%B0.html">3. 显式标记</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../%E4%B8%AD%E7%BA%A7%E8%AF%AD%E6%B3%95/%E5%BC%95%E7%94%A8.html">4. 引用</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../%E4%B8%AD%E7%BA%A7%E8%AF%AD%E6%B3%95/%E8%B6%85%E9%93%BE%E6%8E%A5.html">5. 超链接</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../%E4%B8%AD%E7%BA%A7%E8%AF%AD%E6%B3%95/%E5%9B%BE%E7%89%87.html">6. 图片</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../%E4%B8%AD%E7%BA%A7%E8%AF%AD%E6%B3%95/%E6%9B%BF%E6%8D%A2%E5%BC%95%E7%94%A8%E5%92%8C%E5%AE%9A%E4%B9%89.html">7. 替换引用和定义</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../%E4%B8%AD%E7%BA%A7%E8%AF%AD%E6%B3%95/%E6%B3%A8%E9%87%8A.html">8. 注释</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../%E4%B8%AD%E7%BA%A7%E8%AF%AD%E6%B3%95/%E4%BB%A3%E7%A0%81%E5%9D%97.html">9. 代码块</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../%E4%B8%AD%E7%BA%A7%E8%AF%AD%E6%B3%95/%E5%BC%BA%E8%B0%83.html">10. 强调</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Sphinx标记结构</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../Sphinx%E6%A0%87%E8%AE%B0%E7%BB%93%E6%9E%84/toctree.html">1. toctree</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Sphinx%E6%A0%87%E8%AE%B0%E7%BB%93%E6%9E%84/%E5%86%85%E8%81%94%E6%A0%87%E8%AE%B0.html">2. 内联标记</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Sphinx%E6%A0%87%E8%AE%B0%E7%BB%93%E6%9E%84/%E6%AE%B5%E8%90%BD%E7%BA%A7%E5%88%AB%E6%A0%87%E8%AE%B0.html">3. 段落级别标记</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Sphinx%E6%A0%87%E8%AE%B0%E7%BB%93%E6%9E%84/%E8%A1%A8%E5%86%85%E5%AE%B9%E6%A0%87%E8%AE%B0.html">4. 表内容标记</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Sphinx%E6%A0%87%E8%AE%B0%E7%BB%93%E6%9E%84/%E6%98%BE%E7%A4%BA%E4%BB%A3%E7%A0%81.html">5. 显示代码</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Sphinx%E6%A0%87%E8%AE%B0%E7%BB%93%E6%9E%84/%E5%85%B6%E4%BB%96%E6%A0%87%E8%AE%B0.html">6. 其他标记</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Sphinx_Try</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li><span class="section-number">3. </span>创建Sphinx工程</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../_sources/Sphinx文档方案/创建Sphinx工程.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="sphinx">
+<span id="topics"></span><h1><span class="section-number">3. </span>创建Sphinx工程<a class="headerlink" href="#sphinx" title="Permalink to this headline">¶</a></h1>
+<p>本章节介绍如何使用sphinx和rst创建及发布一个文档工程。</p>
+<div class="section" id="id1">
+<h2><span class="section-number">3.1. </span>创建文档工程<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic simple">
+<li><p>在本地新建一个Sphinx项目文件夹。</p></li>
+<li><p>打开命令行终端(例如，Windows CMD), 进入项目文件夹。</p></li>
+<li><p>输入以下命令，进入项目创建流程。</p></li>
+</ol>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sphinx-quickstart
+</pre></div>
+</div>
+<ol class="arabic simple" start="4">
+<li><p>参考以下内容，创建项目:</p></li>
+</ol>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>You have two options <span class="k">for</span> placing the build directory <span class="k">for</span> Sphinx output.
+Either, you use a directory <span class="s2">&quot;_build&quot;</span> within the root path, or you separate
+<span class="s2">&quot;source&quot;</span> and <span class="s2">&quot;build&quot;</span> directories within the root path.
+&gt; Separate <span class="nb">source</span> and build directories <span class="o">(</span>y/n<span class="o">)</span> <span class="o">[</span>n<span class="o">]</span>: y
+
+Inside the root directory, two more directories will be created<span class="p">;</span> <span class="s2">&quot;_templates&quot;</span>
+or custom HTML templates and <span class="s2">&quot;_static&quot;</span> <span class="k">for</span> custom stylesheets and other static
+files. You can enter another prefix <span class="o">(</span>such as <span class="s2">&quot;.&quot;</span><span class="o">)</span> to replace the underscore.
+&gt; Name prefix <span class="k">for</span> templates and static dir <span class="o">[</span>_<span class="o">]</span>:
+
+The project name will occur <span class="k">in</span> several places <span class="k">in</span> the built documentation.
+&gt; Project name: Test
+&gt; Author name<span class="o">(</span>s<span class="o">)</span>: Zhaojiedi1992
+
+Sphinx has the notion of a <span class="s2">&quot;version&quot;</span> and a <span class="s2">&quot;release&quot;</span> <span class="k">for</span> the
+software. Each version can have multiple releases. For example, <span class="k">for</span>
+Python the version is something like <span class="m">2</span>.5 or <span class="m">3</span>.0, <span class="k">while</span> the release is
+something like <span class="m">2</span>.5.1 or <span class="m">3</span>.0a1.  If you don<span class="s1">&#39;t need this dual structure,</span>
+<span class="s1">just set both to the same value.</span>
+<span class="s1">&gt; Project version []: v1.0</span>
+<span class="s1">&gt; Project release [v1.0]:</span>
+
+<span class="s1">If the documents are to be written in a language other than English,</span>
+<span class="s1">you can select a language here by its language code. Sphinx will then</span>
+<span class="s1">translate text that it generates into that language.</span>
+
+<span class="s1">For a list of supported codes, see</span>
+<span class="s1">http://sphinx-doc.org/config.html#confval-language.</span>
+<span class="s1">&gt; Project language [en]: en</span>
+
+<span class="s1">The file name suffix for source files. Commonly, this is either &quot;.txt&quot;</span>
+<span class="s1">or &quot;.rst&quot;.  Only files with this suffix are considered documents.</span>
+
+<span class="s1">A Makefile and a Windows command file can be generated for you so that you</span>
+<span class="s1">only have to run e.g. `make html&#39;</span> instead of invoking sphinx-build
+directly.
+&gt; Create Makefile? <span class="o">(</span>y/n<span class="o">)</span> <span class="o">[</span>y<span class="o">]</span>:
+&gt; Create Windows <span class="nb">command</span> file? <span class="o">(</span>y/n<span class="o">)</span> <span class="o">[</span>y<span class="o">]</span>:
+
+Creating file .<span class="se">\s</span>ource<span class="se">\c</span>onf.py.
+Creating file .<span class="se">\s</span>ource<span class="se">\i</span>ndex.rst.
+Creating file .<span class="se">\M</span>akefile.
+Creating file .<span class="se">\m</span>ake.bat.
+
+Finished: An initial directory structure has been created.
+
+You should now populate your master file .<span class="se">\s</span>ource<span class="se">\i</span>ndex.rst and create other documentation
+<span class="nb">source</span> files. Use the Makefile to build the docs, like so:
+make builder
+where <span class="s2">&quot;builder&quot;</span> is one of the supported builders, e.g. html, latex or linkcheck.
+</pre></div>
+</div>
+<ol class="arabic simple" start="5">
+<li><p>进入工程文件目录,然后进入Source文件夹。该文件夹包含几个文件。其中Index.rst用于设置文档TOC， conf是Sphinx的配置文件，可以配置输出文档的主题。可以新建.rst文件，编辑文档内容。</p></li>
+</ol>
+<p>具体文档编写语法，参考以下链接内容：</p>
+<ul class="simple">
+<li><p><a class="reference external" href="http://www.sphinx-doc.org/en/stable/rest.html">sphinx对rst文档的帮助文档</a></p></li>
+<li><p><a class="reference external" href="http://docutils.sourceforge.net/rst.html">rst的官文帮助文档</a></p></li>
+</ul>
+</div>
+<div class="section" id="id2">
+<h2><span class="section-number">3.2. </span>设置主题<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
+<p>Sphinx提供默认主题。如果需要下载更多主题，参考: <a class="reference external" href="http://www.sphinx-doc.org/en/stable/theming.html#builtin-themes">官方内置主题</a></p>
+<p>此处以sphinx_rtd_theme主题为例进行安装。进入Source目录，执行下面命令：</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>pip install sphinx_rtd_theme
+</pre></div>
+</div>
+<p>安装完毕后，修改conf.py文件，保存。</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nv">html_theme</span> <span class="o">=</span> <span class="s1">&#39;sphinx_rtd_theme&#39;</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="id4">
+<h2><span class="section-number">3.3. </span>生成文档<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h2>
+<p>在工程目录（非source目录），执行make命令：</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>make html
+</pre></div>
+</div>
+</div>
+<div class="section" id="id5">
+<h2><span class="section-number">3.4. </span>预览文档<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h2>
+<p>生成的htm目录在工程的build/html目录下。双击html目录下的index.html完成预览。</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="../%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/%E6%A0%87%E9%A2%98.html" class="btn btn-neutral float-right" title="1. 标题学习" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="%E5%AE%89%E8%A3%85Sphinx.html" class="btn btn-neutral float-left" title="2. 安装Sphinx" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2021, ZhangHong.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
