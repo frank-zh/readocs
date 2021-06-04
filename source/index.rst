@@ -5,6 +5,7 @@ Sphinx快速入门指南
 ========================
 
 本章文档介绍Sphinx的安装及主要语法。
+this is a new merge.
 
 .. toctree::
     :caption: Sphinx文档方案
