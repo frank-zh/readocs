@@ -1,0 +1,672 @@
+Date: Tue, 17 Aug 2021 15:51:55 +0800 (CST)
+Message-ID: <1055171767.824172.1629186715133@localhost>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_824171_1351619799.1629186715132"
+
+------=_Part_824171_1351619799.1629186715132
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Linux CentOS7=E6=90=AD=E5=BB=BApython+sphinx+latex=E7=8E=AF=E5=
+=A2=83</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Linux CentOS7=E6=90=AD=E5=BB=BApython+sphinx+latex=E7=8E=AF=E5=A2=
+=83</h1>
+    <div class=3D"Section1">
+        <p>=E4=BB=A5=E4=B8=8B=E7=8E=AF=E5=A2=83=E6=90=AD=E5=BB=BA=EF=BC=8C=
+=E5=9D=87=E5=9C=A8CentOS7=E7=B3=BB=E7=BB=9F=E4=B8=8B=E5=AE=8C=E6=88=90=E3=
+=80=82</p>
+<h1 id=3D"LinuxCentOS7=E6=90=AD=E5=BB=BApython+sphinx+latex=E7=8E=AF=E5=A2=
+=83-=E4=B8=80=E3=80=81=E5=8D=87=E7=BA=A7python2=E5=88=B0python3=E7=89=88=E6=
+=9C=AC">=E4=B8=80=E3=80=81=E5=8D=87=E7=BA=A7python2=E5=88=B0python3=E7=89=
+=88=E6=9C=AC</h1>
+<p>&nbsp; &nbsp;=E5=9B=A0=E4=B8=BAcentos7=E9=BB=98=E8=AE=A4=E5=AE=89=E8=A3=
+=85=E7=9A=84=E6=98=AFpython2=EF=BC=8C=E4=B8=BA=E4=BA=86=E7=94=A8=E6=9C=80=
+=E6=96=B0=E7=9A=84python=E7=89=88=E6=9C=AC=EF=BC=8C=E9=9C=80=E8=A6=81=E5=8D=
+=87=E7=BA=A7python2=E5=88=B0python3=E3=80=82</p>
+<p>&nbsp; &nbsp;1. =E6=89=A7=E8=A1=8C=E5=A6=82=E4=B8=8B=E5=91=BD=E4=BB=A4=
+=EF=BC=8C=E5=88=87=E6=8D=A2=E7=94=A8=E6=88=B7=E5=88=B0root=E7=94=A8=E6=88=
+=B7=EF=BC=8C=E5=9B=A0=E4=B8=BA=E5=88=9D=E5=A7=8B=E7=9A=84centos7=E7=B3=BB=
+=E7=BB=9F=EF=BC=8C=E5=8F=AA=E6=9C=89root=E7=94=A8=E6=88=B7=E8=83=BD=E6=89=
+=A7=E8=A1=8Cyum=E5=91=BD=E4=BB=A4</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; su root</p>
+<p>&nbsp; &nbsp;2. =E6=89=A7=E8=A1=8C=E5=A6=82=E4=B8=8B=E5=91=BD=E4=BB=A4=
+=EF=BC=8C=E5=8D=87=E7=BA=A7python2=E5=88=B0python3=E3=80=82</p>
+<p>&nbsp; &nbsp; &nbsp;&nbsp;<span class=3D"bjh-blockquote"><span class=3D"=
+bjh-p">yum install python3</span></span></p>
+<p><span class=3D"bjh-blockquote"><span class=3D"bjh-p">&nbsp; &nbsp; &nbsp=
+; =E5=AE=89=E8=A3=85=E5=AE=8C=E6=88=90=EF=BC=8C=E6=89=A7=E8=A1=8C=E5=A6=82=
+=E4=B8=8B=E5=91=BD=E4=BB=A4=EF=BC=8C=E6=9F=A5=E7=9C=8B=E6=98=AF=E5=90=A6=E5=
+=AE=89=E8=A3=85=E6=88=90=E5=8A=9F=EF=BC=9A</span></span></p>
+<p><span class=3D"bjh-blockquote"><span class=3D"bjh-p">&nbsp; &nbsp; &nbsp=
+; python3 -V</span></span></p>
+<p><span class=3D"bjh-blockquote"><span class=3D"bjh-p">&nbsp; &nbsp; &nbsp=
+;=E5=88=87=E6=8D=A2=E5=88=B0cd /usr/bin=E7=9B=AE=E5=BD=95=EF=BC=8C=E5=8F=AF=
+=E4=BB=A5=E7=9C=8B=E5=88=B0=E6=9C=89python2.7=E5=92=8Cpython3.6=E4=B8=A4=E4=
+=B8=AA=E7=89=88=E6=9C=AC=E3=80=82</span></span></p>
+<p>&nbsp; &nbsp;3. =E9=93=BE=E6=8E=A5=E7=B3=BB=E7=BB=9F=E7=8E=AF=E5=A2=83=
+=E5=88=B0python3=EF=BC=8C=E5=91=8A=E8=AF=89=E7=B3=BB=E7=BB=9F=E5=90=8E=E7=
+=BB=AD=E5=91=BD=E4=BB=A4=E9=83=BD=E9=87=87=E7=94=A8python3=E8=A7=A3=E6=9E=
+=90=E3=80=82</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp;=E5=9B=A0=E4=B8=BA=E7=B3=BB=E7=BB=9F=E4=B8=AD=
+=E6=9C=89python2.7=E5=92=8Cpython3.6=E4=B8=A4=E4=B8=AA=E7=89=88=E6=9C=AC=EF=
+=BC=8C=E5=BF=85=E9=A1=BB=E5=91=8A=E8=AF=89=E7=B3=BB=E7=BB=9F=E9=BB=98=E8=AE=
+=A4=E7=94=A8python3.6=E7=9A=84=E7=89=88=E6=9C=AC=EF=BC=8C=E5=9B=A0=E6=AD=A4=
+=E9=9C=80=E8=A6=81=E6=89=A7=E8=A1=8C=E5=A6=82=E4=B8=8B=E5=91=BD=E4=BB=A4=EF=
+=BC=8C=E5=90=A6=E5=88=99=E9=BB=98=E8=AE=A4=E7=9A=84=E5=91=BD=E4=BB=A4=E8=BF=
+=98=E6=98=AF=E5=9F=BA=E4=BA=8Epython2.7=E7=9A=84=E3=80=82</p>
+<p>&nbsp; &nbsp; &nbsp;&nbsp;<span class=3D"bjh-blockquote"><span class=3D"=
+bjh-p">ln -s python3</span></span></p>
+<p><span class=3D"bjh-blockquote"><span class=3D"bjh-p">&nbsp; &nbsp; &nbsp=
+;=E4=B8=8A=E9=9D=A2=E7=9A=84=E5=91=BD=E4=BB=A4=E6=89=A7=E8=A1=8C=E5=AE=8C=
+=E6=AF=95=EF=BC=8C=E6=89=A7=E8=A1=8Cpython -V=E6=9F=A5=E7=9C=8B=E4=BB=A5=E4=
+=B8=8Bpython=E7=89=88=E6=9C=AC=EF=BC=8C=E4=BC=9A=E5=8F=91=E7=8E=B0=E9=BB=98=
+=E8=AE=A4=E7=9A=84python=E7=89=88=E6=9C=AC=E4=BF=AE=E6=94=B9=E4=B8=BA=E4=BA=
+=863.6=E3=80=82</span></span></p>
+<p><span class=3D"bjh-blockquote"><span class=3D"bjh-p">&nbsp; &nbsp;4.=E4=
+=BF=AE=E6=94=B9yum=E9=85=8D=E7=BD=AE=E6=96=87=E4=BB=B6=EF=BC=8C=E8=AE=A9yum=
+=E5=9F=BA=E4=BA=8Epython3=E6=89=A7=E8=A1=8C=E3=80=82</span></span></p>
+<p><span class=3D"bjh-blockquote"><span class=3D"bjh-p">&nbsp; &nbsp; &nbsp=
+;yum=E5=91=BD=E4=BB=A4=E6=98=AF=E5=9F=BA=E4=BA=8Epython=E7=BC=96=E5=86=99=
+=E7=9A=84=EF=BC=8C=E9=BB=98=E8=AE=A4=E6=98=AF=E5=9F=BA=E4=BA=8Epython2.7=EF=
+=BC=8C=E5=9C=A8=E5=AE=89=E8=A3=85=E4=BA=86python3.6=E5=90=8E=EF=BC=8C=E9=9C=
+=80=E8=A6=81=E9=87=87=E7=94=A8python3.6=E7=9A=84yum=E5=91=BD=E4=BB=A4=EF=BC=
+=8C=E6=8C=89=E5=A6=82=E4=B8=8B=E6=AD=A5=E9=AA=A4=E6=93=8D=E4=BD=9C=EF=BC=9A=
+</span></span></p>
+<p><span class=3D"bjh-blockquote"><span class=3D"bjh-p">&nbsp; &nbsp; &nbsp=
+;1=EF=BC=89=E6=89=93=E5=BC=80yum=E6=BA=90=E6=96=87=E4=BB=B6=EF=BC=8C=E6=89=
+=A7=E8=A1=8C=E5=91=BD=E4=BB=A4=EF=BC=9Avim /usr/bin/yum=E3=80=82</span></sp=
+an></p>
+<p><span class=3D"bjh-blockquote"><span class=3D"bjh-p">&nbsp; &nbsp; &nbsp=
+;2=EF=BC=89&nbsp;</span></span><span class=3D"bjh-blockquote"><span class=
+=3D"bjh-p">=E5=B0=86=E6=9C=80=E9=A1=B6=E9=83=A8=E7=9A=84#!/usr/bin/python=
+=E4=BF=AE=E6=94=B9=E4=B8=BA #!/usr/bin/python2 =E5=8D=B3=E5=8F=AF=E3=80=82<=
+/span></span></p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span style=3D"color: rgb(255,=
+0,0);"><strong>=E6=B3=A8=E6=84=8F=EF=BC=9A=E5=8F=AA=E8=83=BD=E4=BF=AE=E6=94=
+=B9=E4=B8=BApython2=EF=BC=8C=E4=B8=8D=E8=83=BD=E4=BF=AE=E6=94=B9=E4=B8=BApy=
+thon3=EF=BC=8C=E5=90=A6=E5=88=99yum=E5=B0=86=E6=97=A0=E6=B3=95=E6=89=A7=E8=
+=A1=8C=E3=80=82</strong></span></p>
+<p>&nbsp; &nbsp; =E4=BB=A5=E4=B8=8A=E6=AD=A5=E9=AA=A4=E5=8F=82=E8=80=83=E4=
+=BB=A5=E4=B8=8B=E7=BD=91=E5=9D=80=EF=BC=9A&nbsp; &nbsp;&nbsp;<a href=3D"htt=
+ps://baijiahao.baidu.com/s?id=3D1650799838552962991&amp;wfr=3Dspider&amp;fo=
+r=3Dpc" class=3D"external-link" rel=3D"nofollow">https://baijiahao.baidu.co=
+m/s?id=3D1650799838552962991&amp;wfr=3Dspider&amp;for=3Dpc</a></p>
+<p>&nbsp; &nbsp;=E5=8F=AF=E4=BB=A5=E7=9B=B4=E6=8E=A5=E7=99=BB=E9=99=86=E8=
+=AF=A5=E7=BD=91=E5=9D=80=EF=BC=8C=E6=9F=A5=E7=9C=8B=E8=AF=A6=E7=BB=86=E4=BF=
+=A1=E6=81=AF=E3=80=82</p>
+<p>=E9=80=9A=E8=BF=87=E4=BB=A5=E4=B8=8A=E6=AD=A5=E9=AA=A4=EF=BC=8C=E7=B3=BB=
+=E7=BB=9F=E7=9A=84python=E7=8E=AF=E5=A2=83=E5=AE=8C=E5=85=A8=E5=88=87=E6=8D=
+=A2=E5=88=B0python3=E3=80=82</p>
+<h2 id=3D"LinuxCentOS7=E6=90=AD=E5=BB=BApython+sphinx+latex=E7=8E=AF=E5=A2=
+=83-=E4=BA=8C=E3=80=81=E5=AE=89=E8=A3=85sphinx=E5=92=8Csphinx_rtd_theme">=
+=E4=BA=8C=E3=80=81=E5=AE=89=E8=A3=85sphinx=E5=92=8Csphinx_rtd_theme</h2>
+<p>&nbsp; =E5=AE=89=E8=A3=85sphinx=E5=92=8Csphinx_rtd_theme=EF=BC=8C=E6=9C=
+=80=E5=A5=BD=E5=85=88=E9=85=8D=E7=BD=AE=E4=B8=8B=E8=BD=BD=E6=BA=90=E4=B8=BA=
+=E9=98=BF=E9=87=8C=E4=BA=91=EF=BC=8C=E5=90=A6=E5=88=99=E4=BB=8E=E5=9B=BD=E5=
+=A4=96=E5=AE=98=E7=BD=91=E4=B8=8B=E8=BD=BD=E9=9D=9E=E5=B8=B8=E7=9A=84=E6=85=
+=A2=E3=80=82=E6=8C=89=E5=A6=82=E4=B8=8B=E6=AD=A5=E9=AA=A4=E9=85=8D=E7=BD=AE=
+=E6=BA=90=E4=B8=BA=E9=98=BF=E9=87=8C=E4=BA=91=EF=BC=9A</p>
+<div class=3D"confluence-information-macro confluence-information-macro-inf=
+ormation">
+<p class=3D"title">=E9=85=8D=E7=BD=AE=E6=BA=90=E4=B8=BA=E9=98=BF=E9=87=8C=
+=E4=BA=91</p>
+<span class=3D"aui-icon aui-icon-small aui-iconfont-info confluence-informa=
+tion-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<pre class=3D"line-numbers language-csharp"><code class=3D"language-csharp"=
+><span class=3D"token preprocessor property"># =E8=BF=9B=E5=85=A5=E7=94=A8=
+=E6=88=B7=E7=9B=AE=E5=BD=95</span>
+cd <span class=3D"token operator">~</span>=20
+<span class=3D"token preprocessor property"># =E5=A6=82=E6=9E=9C=E4=B8=8D=
+=E5=AD=98=E5=9C=A8=E5=88=99=E5=88=9B=E5=BB=BA</span>
+mkdir <span class=3D"token punctuation">.</span>pip
+<span class=3D"token preprocessor property"># =E7=BC=96=E8=BE=91pip=E9=BB=
+=98=E8=AE=A4=E9=85=8D=E7=BD=AE=E6=96=87=E4=BB=B6</span>
+vi <span class=3D"token punctuation">.</span>pip<span class=3D"token operat=
+or">/</span>pip<span class=3D"token punctuation">.</span>conf
+<span class=3D"token preprocessor property"># =E5=86=99=E5=85=A5</span>
+<span class=3D"token preprocessor property">###############################=
+############</span>
+<span class=3D"token punctuation">[</span><span class=3D"token keyword">glo=
+bal</span><span class=3D"token punctuation">]</span>
+index<span class=3D"token operator">-</span>url<span class=3D"token operato=
+r">=3D</span>http<span class=3D"token punctuation">:</span><span class=3D"t=
+oken operator">/</span><span class=3D"token operator">/</span>mirrors<span =
+class=3D"token punctuation">.</span>aliyun<span class=3D"token punctuation"=
+>.</span>com<span class=3D"token operator">/</span>pypi<span class=3D"token=
+ operator">/</span>simple<span class=3D"token operator">/</span>
+
+<span class=3D"token punctuation">[</span>install<span class=3D"token punct=
+uation">]</span>
+trusted<span class=3D"token operator">-</span>host<span class=3D"token oper=
+ator">=3D</span>mirrors<span class=3D"token punctuation">.</span>aliyun<spa=
+n class=3D"token punctuation">.</span>com
+<span class=3D"token preprocessor property">###############################=
+###########<br>=E9=85=8D=E7=BD=AE=E5=AE=8C=E6=88=90=EF=BC=8C=E4=BF=9D=E5=AD=
+=98=E9=80=80=E5=87=BA=E5=8D=B3=E5=8F=AF=E3=80=82<br><br>=E9=85=8D=E7=BD=AE=
+=E9=98=BF=E9=87=8C=E4=BA=91=E5=8E=9F=E5=A7=8B=E7=BD=91=E5=9D=80=EF=BC=9A<a =
+href=3D"https://www.jianshu.com/p/df60ea8ae819" class=3D"external-link" rel=
+=3D"nofollow">https://www.jianshu.com/p/df60ea8ae819</a></span></code></pre=
+>
+</div>
+</div>
+<pre class=3D"line-numbers language-csharp"><br> =E5=AE=89=E8=A3=85sphinx=
+=E5=92=8Csphinx_rtd_theme=E9=9D=9E=E5=B8=B8=E7=9A=84=E7=AE=80=E5=8D=95=EF=
+=BC=8C=E6=89=A7=E8=A1=8C=E5=A6=82=E4=B8=8B=E5=91=BD=E4=BB=A4=EF=BC=9A</pre>
+<p>&nbsp;#=E5=AE=89=E8=A3=85sphinx&nbsp;</p>
+<p>&nbsp;pip3 install -U sphinx</p>
+<p>#=E5=AE=89=E8=A3=85sphinx_rtd_theme&nbsp; &nbsp; &nbsp;&nbsp;</p>
+<p>pip3 install -U sphinx_rtd_theme</p>
+<p>#=E5=AE=89=E8=A3=85latex=E5=91=BD=E4=BB=A4=EF=BC=8C=E4=BD=BF=E5=BE=97sph=
+inx=E5=8F=AF=E4=BB=A5=E6=89=A7=E8=A1=8Clatexmk=EF=BC=88=E8=AF=A5=E6=AD=A5=
+=E9=AA=A4=E4=B8=8D=E7=A1=AE=E5=AE=9A=E6=98=AF=E5=90=A6=E5=BF=85=E9=A1=BB=EF=
+=BC=8C=E6=9C=89=E7=9A=84=E7=BD=91=E7=AB=99=E4=BB=8B=E7=BB=8D=E6=9C=89=E8=AF=
+=A5=E6=AD=A5=E9=AA=A4=EF=BC=8C=E6=9C=89=E7=9A=84=E7=BD=91=E7=AB=99=E6=B2=A1=
+=E6=9C=89=E8=AF=A5=E6=AD=A5=E9=AA=A4=EF=BC=8C=E5=AE=89=E8=A3=85=E5=90=8E=E8=
+=82=AF=E5=AE=9A=E5=8F=AF=E4=BB=A5=E6=89=A7=E8=A1=8C=EF=BC=89=E3=80=82</p>
+<p>pip3 install -U latex</p>
+<p>=E6=AD=A5=E9=AA=A4=E4=BA=8C=E5=AE=8C=E5=85=A8=E6=89=A7=E8=A1=8C=E5=AE=8C=
+=E6=AF=95=EF=BC=8C=E6=97=A2=E5=8F=AF=E4=BB=A5=E6=89=A7=E8=A1=8Csphinx=E5=91=
+=BD=E4=BB=A4=E4=BA=86=EF=BC=8C=E9=80=9A=E8=BF=87sphinx-quickstart=E6=96=B0=
+=E5=BB=BA=E6=96=87=E4=BB=B6=E5=A4=B9=EF=BC=8C=E9=80=9A=E8=BF=87make html,ma=
+ke latex=E7=94=9F=E6=88=90html=E5=92=8Clatex=E6=96=87=E4=BB=B6=E3=80=82</p>
+<h3 id=3D"LinuxCentOS7=E6=90=AD=E5=BB=BApython+sphinx+latex=E7=8E=AF=E5=A2=
+=83-=E4=B8=89=E3=80=81=E6=90=AD=E5=BB=BAtexlive=E7=8E=AF=E5=A2=83=EF=BC=8C=
+=E4=BD=BFsphinx=E5=8F=AF=E4=BB=A5=E7=94=9F=E6=88=90pdf">=E4=B8=89=E3=80=81=
+=E6=90=AD=E5=BB=BAtexlive=E7=8E=AF=E5=A2=83=EF=BC=8C=E4=BD=BFsphinx=E5=8F=
+=AF=E4=BB=A5=E7=94=9F=E6=88=90pdf</h3>
+<p>&nbsp; =E6=89=A7=E8=A1=8C=E4=BB=A5=E4=B8=8B=E5=91=BD=E4=BB=A4=E5=89=8D=
+=EF=BC=8C=E9=9C=80=E8=A6=81=E5=B0=86=E7=94=A8=E6=88=B7=E5=88=87=E6=8D=A2=E5=
+=88=B0<strong>root</strong>=E7=94=A8=E6=88=B7=EF=BC=8C=E6=89=A7=E8=A1=8C=E5=
+=91=BD=E4=BB=A4<strong>su root</strong>=E8=BF=9B=E8=A1=8C=E5=88=87=E6=8D=A2=
+=EF=BC=8C=E5=90=A6=E5=88=99texlive=E5=AE=89=E8=A3=85=E5=B0=86=E4=B8=8D=E6=
+=88=90=E5=8A=9F=E3=80=82</p>
+<p>&nbsp;1. =E5=AE=89=E8=A3=85texlive iso=E9=95=9C=E5=83=8F=EF=BC=8C=E6=89=
+=A7=E8=A1=8C=E5=A6=82=E4=B8=8B=E5=91=BD=E4=BB=A4=EF=BC=9A</p>
+<p>&nbsp; &nbsp;&nbsp;wget -c <a href=3D"https://mirrors.tuna.tsinghua.edu.=
+cn/CTAN/systems/texlive/Images/texlive2019.iso" class=3D"external-link" rel=
+=3D"nofollow">https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/texlive/Ima=
+ges/texlive2020.iso</a></p>
+<p>&nbsp; &nbsp; =E4=B9=9F=E5=8F=AF=E4=BB=A5=E7=9B=B4=E6=8E=A5=E7=99=BB=E9=
+=99=86=E7=BD=91=E7=AB=99=EF=BC=8C=E4=BB=8E=E6=B5=8F=E8=A7=88=E5=99=A8=E4=B8=
+=8B=E8=BD=BD<a href=3D"https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/te=
+xlive/Images/texlive2019.iso" class=3D"external-link" rel=3D"nofollow">texl=
+ive2020.iso</a>=E6=96=87=E4=BB=B6=E3=80=82</p>
+<p>2. =E6=8C=82=E5=9C=A8=E9=95=9C=E5=83=8F=E5=88=B0mnt=EF=BC=8C=E5=B9=B6=E6=
+=89=A7=E8=A1=8C=E5=AE=89=E8=A3=85=E5=91=BD=E4=BB=A4=EF=BC=8C=E5=AE=89=E8=A3=
+=85texlive2020=E3=80=82</p>
+<p>&nbsp; &nbsp;#=E6=89=A7=E8=A1=8C=E5=A6=82=E4=B8=8B=E5=91=BD=E4=BB=A4=EF=
+=BC=8C=E5=B0=86iso=E9=95=9C=E5=83=8F=E5=88=B0mnt=EF=BC=9A</p>
+<p>&nbsp; &nbsp; &nbsp;mount -o loop texlive2019.iso&nbsp; /mnt/</p>
+<p>&nbsp; #=E5=9C=A8=E5=AE=89=E8=A3=85texlive2020=E5=89=8D=EF=BC=8C<strong>=
+<span style=3D"color: rgb(255,0,0);">=E5=BF=85=E9=A1=BB=E5=85=88=E6=9B=B4=
+=E6=96=B0per=E7=9A=84md5=E5=8C=85</span></strong>=EF=BC=8C=E5=90=A6=E5=88=
+=99texlive=E4=BC=9A=E5=AE=89=E8=A3=85=E5=A4=B1=E8=B4=A5=EF=BC=8C=E6=9B=B4=
+=E6=96=B0per md5=E6=89=A7=E8=A1=8C=E5=A6=82=E4=B8=8B=E5=91=BD=E4=BB=A4=EF=
+=BC=9A</p>
+<p>&nbsp; &nbsp; yum<span style=3D"color: rgb(0,153,0);">&nbsp;<span style=
+=3D"color: rgb(0,0,0);">install perl-Digest-MD5</span></span><span style=3D=
+"color: rgb(0,0,0);">&nbsp;</span></p>
+<p>&nbsp; &nbsp;=E5=AE=89=E8=A3=85perl md5=E5=8C=85=E5=8E=9F=E5=A7=8B=E7=BD=
+=91=E5=9D=80=EF=BC=9A<a href=3D"https://blog.csdn.net/ws_20100/article/deta=
+ils/49046321?utm_medium=3Ddistribute.pc_relevant.none-task-blog-BlogCommend=
+FromMachineLearnPai2-2.nonecase&amp;depth_1-utm_source=3Ddistribute.pc_rele=
+vant.none-task-blog-BlogCommendFromMachineLearnPai2-2.nonecase" class=3D"ex=
+ternal-link" rel=3D"nofollow">https://blog.csdn.net/ws_20100/article/detail=
+s/49046321?utm_medium=3Ddistribute.pc_relevant.none-task-blog-BlogCommendFr=
+omMachineLearnPai2-2.nonecase&amp;depth_1-utm_source=3Ddistribute.pc_releva=
+nt.none-task-blog-BlogCommendFromMachineLearnPai2-2.nonecase</a></p>
+<p>&nbsp; #=E5=AE=89=E8=A3=85perl-Env=E3=80=82=E5=A6=82=E6=9E=9C=E4=B8=8D=
+=E5=AE=89=E8=A3=85perl-Env=EF=BC=8C=E5=A6=82=E6=9E=9C=E6=98=AF=E4=B8=AD=E6=
+=96=87=E7=B3=BB=E7=BB=9F=EF=BC=8C=E7=BC=96=E8=AF=91=E8=8B=B1=E6=96=87=E6=96=
+=87=E6=A1=A3=E7=9A=84=E6=97=B6=E5=80=99=EF=BC=8C<strong><span style=3D"colo=
+r: rgb(255,0,0);">=E5=8F=AF=E8=83=BD=E4=BC=9A=E5=9B=A0=E4=B8=BA=E6=97=A0=E6=
+=B3=95=E6=89=BE=E5=88=B0=E2=80=9DEnv.pm"=EF=BC=8C=E8=80=8C=E6=97=A0=E6=B3=
+=95=E7=94=9F=E6=88=90=E8=8B=B1=E6=96=87=E6=96=87=E6=A1=A3=E7=9A=84=E7=9B=AE=
+=E5=BD=95</span></strong>=E3=80=82</p>
+<pre class=3D"lang-perl prettyprint prettyprinted"><code><span class=3D"pln=
+">&nbsp; yum install perl</span><span class=3D"pun">-</span><span class=3D"=
+typ" style=3D"color: rgb(43,145,175);">Env</span></code><br>=E5=8F=82=E8=80=
+=83=E7=BD=91=E5=9D=80=EF=BC=9A<a href=3D"https://superuser.com/questions/11=
+81310/perl-script-cant-locate-env-pm-in-inc" class=3D"external-link" rel=3D=
+"nofollow">https://superuser.com/questions/1181310/perl-script-cant-locate-=
+env-pm-in-inc</a></pre>
+<p>&nbsp; #=E5=AE=89=E8=A3=85texlive2020</p>
+<p>&nbsp; &nbsp;&nbsp;cd /mnt<br>&nbsp; &nbsp;./install-tl</p>
+<p>3. =E8=AE=BE=E7=BD=AEtexlive=E7=8E=AF=E5=A2=83=E5=8F=98=E9=87=8F</p>
+<p>&nbsp; &nbsp;=E4=BB=A5=E4=B8=8B=E6=96=B9=E6=B3=95=EF=BC=8C=E4=BC=9A=E8=
+=AE=BE=E7=BD=AE=E6=B0=B8=E4=B9=85=E7=8E=AF=E5=A2=83=E5=8F=98=E9=87=8F=EF=BC=
+=8C=E6=96=B9=E4=BE=BF=E6=89=80=E6=9C=89=E7=94=A8=E6=88=B7=E4=BD=BF=E7=94=A8=
+=E3=80=82</p>
+<p>&nbsp; &nbsp;#=E6=89=93=E5=BC=80=E6=B0=B8=E4=B9=85=E7=8E=AF=E5=A2=83=E5=
+=8F=98=E9=87=8F=E6=96=87=E4=BB=B6</p>
+<p>&nbsp; &nbsp; &nbsp;/etc/profile</p>
+<p>&nbsp; #=E5=9C=A8=E6=96=87=E4=BB=B6=E7=9A=84=E6=9C=80=E5=90=8E=EF=BC=8C=
+=E6=B7=BB=E5=8A=A0=E4=BB=A5=E4=B8=8B=E4=B8=89=E8=A1=8C=E5=86=85=E5=AE=B9=EF=
+=BC=8C=E5=B9=B6=E4=BF=9D=E5=AD=98=E9=80=80=E5=87=BA=E3=80=82</p>
+<pre><code>  PATH=3D$PATH:/usr/local/texlive/2017/bin/x86_64-linux:$PATH; e=
+xport PATH
+  MANPATH=3D/usr/local/texlive/2017/texmf-dist/doc/man:$MANPATH; export MAN=
+PATH
+  INFOPATH=3D/usr/local/texlive/2017/texmf-dist/doc/info:$INFOPATH; export =
+INFOPATH
+</code></pre>
+<p>&nbsp; #=E6=89=A7=E8=A1=8C=E5=A6=82=E4=B8=8B=E5=91=BD=E4=BB=A4=EF=BC=8C=
+=E5=88=B7=E6=96=B0=E7=8E=AF=E5=A2=83=E5=8F=98=E9=87=8F=EF=BC=8C=E4=BD=BF=E7=
+=8E=AF=E5=A2=83=E5=8F=98=E9=87=8F=E7=94=9F=E6=95=88=E3=80=82</p>
+<p>&nbsp; &nbsp; source /etc/profile</p>
+<p><strong>&nbsp; <span style=3D"color: rgb(255,0,0);">=E7=89=B9=E5=88=AB=
+=E6=B3=A8=E6=84=8F=EF=BC=9A=E4=BB=A5=E4=B8=8B=E7=8E=AF=E5=A2=83=E5=8F=98=E9=
+=87=8F=E6=9C=80=E5=A5=BD=E4=B9=9F=E8=A6=81=E8=AE=BE=E7=BD=AE=EF=BC=8C=E5=90=
+=A6=E5=88=99=E5=9C=A8=E7=BC=96=E8=AF=91pdf=E6=97=B6=E5=8F=AF=E8=83=BD=E4=BC=
+=9A=E2=80=9Clatexmk command not found=E2=80=9D=E7=9A=84=E9=94=99=E8=AF=AF=
+=E3=80=82</span></strong></p>
+<p><span style=3D"color: rgb(0,0,0);">&nbsp; * =E6=89=A7=E8=A1=8Cvim&nbsp;/=
+etc/bashrc=EF=BC=8C=E6=89=93=E5=BC=80bashrc=E6=96=87=E4=BB=B6</span></p>
+<p><span style=3D"color: rgb(0,0,0);">&nbsp; * =E5=B0=86=E4=B8=8A=E9=9D=A2=
+=E6=8F=90=E5=88=B0=E7=9A=84=E4=B8=89=E4=B8=AA=E7=8E=AF=E5=A2=83=E5=8F=98=E9=
+=87=8FPATH=E3=80=81MANPATH=E3=80=81INFOPATH=EF=BC=8Ccopy=E5=88=B0=E6=96=87=
+=E4=BB=B6=E7=9A=84=E6=9C=AB=E5=B0=BE=EF=BC=8C=E5=B9=B6=E4=BF=9D=E5=AD=98=E9=
+=80=80=E5=87=BA=E3=80=82</span></p>
+<p><span style=3D"color: rgb(0,0,0);">&nbsp; * =E6=89=A7=E8=A1=8Csource /et=
+c/bashrc=E5=91=BD=E4=BB=A4=E5=88=B7=E6=96=B0=E7=8E=AF=E5=A2=83=E5=8F=98=E9=
+=87=8F=EF=BC=8C=E4=BD=BF=E7=8E=AF=E5=A2=83=E5=8F=98=E9=87=8F=E7=94=9F=E6=95=
+=88=E3=80=82</span></p>
+<p><span style=3D"color: rgb(0,0,0);">=E7=8E=AF=E5=A2=83=E5=8F=98=E9=87=8F=
+=E8=AE=BE=E7=BD=AE=E5=AE=8C=E6=AF=95=EF=BC=8C=E6=89=A7=E8=A1=8Cecho $PATH=
+=E5=91=BD=E4=BB=A4=E5=8F=AF=E4=BB=A5=E6=A3=80=E6=9F=A5=E7=8E=AF=E5=A2=83=E5=
+=8F=98=E9=87=8F=E6=98=AF=E5=90=A6=E8=AE=BE=E7=BD=AE=E6=88=90=E5=8A=9F=E3=80=
+=82</span></p>
+<p>=E6=90=AD=E5=BB=BAtexlive2020=E7=8E=AF=E5=A2=83=E5=8E=9F=E5=A7=8B=E7=BD=
+=91=E5=9D=80=EF=BC=9A<a href=3D"http://blog.sina.com.cn/s/blog_bad174440102=
+z1oz.html" class=3D"external-link" rel=3D"nofollow">http://blog.sina.com.cn=
+/s/blog_bad174440102z1oz.html</a></p>
+<p>=E8=AE=BE=E7=BD=AE=E7=8E=AF=E5=A2=83=E5=8F=98=E9=87=8F=E5=8E=9F=E5=A7=8B=
+=E7=BD=91=E5=9D=80=EF=BC=9A</p>
+<p>1.&nbsp;<a href=3D"https://blog.csdn.net/huangfei711/article/details/530=
+44539" class=3D"external-link" rel=3D"nofollow">https://blog.csdn.net/huang=
+fei711/article/details/53044539</a>=E3=80=82</p>
+<p>2.&nbsp;<a href=3D"https://blog.csdn.net/promisejia/article/details/8154=
+3444?utm_medium=3Ddistribute.pc_relevant.none-task-blog-BlogCommendFromMach=
+ineLearnPai2-2.nonecase&amp;depth_1-utm_source=3Ddistribute.pc_relevant.non=
+e-task-blog-BlogCommendFromMachineLearnPai2-2.nonecase" class=3D"external-l=
+ink" rel=3D"nofollow">https://blog.csdn.net/promisejia/article/details/8154=
+3444?utm_medium=3Ddistribute.pc_relevant.none-task-blog-BlogCommendFromMach=
+ineLearnPai2-2.nonecase&amp;depth_1-utm_source=3Ddistribute.pc_relevant.non=
+e-task-blog-BlogCommendFromMachineLearnPai2-2.nonecase</a></p>
+<p><br></p>
+<p>=E6=AD=A5=E9=AA=A4=E4=B8=89=E5=AE=8C=E6=88=90=EF=BC=8C=E5=B0=B1=E5=8F=AF=
+=E4=BB=A5=E7=94=A8make latexpdf=E7=94=9F=E6=88=90=E9=BB=98=E8=AE=A4=E7=9A=
+=84pdf=E6=96=87=E4=BB=B6=E4=BA=86=EF=BC=8C=E4=BD=86=E6=98=AF=E8=BF=98=E4=B8=
+=8D=E8=83=BD=E6=89=A7=E8=A1=8C=E6=88=91=E4=BB=AC=E8=87=AA=E5=AE=9A=E4=B9=89=
+=E7=9A=84=E6=A8=A1=E6=9D=BF=E3=80=82</p>
+<h1 id=3D"LinuxCentOS7=E6=90=AD=E5=BB=BApython+sphinx+latex=E7=8E=AF=E5=A2=
+=83-=E5=9B=9B=E3=80=81=E5=AE=89=E8=A3=85=E6=80=9D=E6=BA=90=E5=AD=97=E4=BD=
+=93">=E5=9B=9B=E3=80=81=E5=AE=89=E8=A3=85=E6=80=9D=E6=BA=90=E5=AD=97=E4=BD=
+=93</h1>
+<p>=E5=AE=89=E8=A3=85=E6=80=9D=E6=BA=90=E5=AD=97=E4=BD=93=EF=BC=8C=E5=8F=AF=
+=E4=BB=A5=E5=8F=82=E8=80=83=E5=A6=82=E4=B8=8B=E7=BD=91=E5=9D=80=EF=BC=9A<a =
+href=3D"https://note.masterchan.me/2017/05/centos7-%E5%AE%89%E8%A3%85%E6%80=
+%9D%E6%BA%90%E9%BB%91%E4%BD%93-source-han-sans.html" class=3D"external-link=
+" rel=3D"nofollow">https://note.masterchan.me/2017/05/centos7-%E5%AE%89%E8%=
+A3%85%E6%80%9D%E6%BA%90%E9%BB%91%E4%BD%93-source-han-sans.html</a></p>
+<p>=E4=BD=86=E6=98=AF=E7=BD=91=E5=9D=80=E4=B8=AD=E6=8F=90=E5=88=B0=E7=9A=84=
+<a rel=3D"nofollow" href=3D"https://github.com/adobe-fonts/source-han-sans/=
+raw/release/OTF/SourceHanSansSC.zip" class=3D"external-link">https://github=
+.com/adobe-fonts/source-han-sans/raw/release/OTF/SourceHanSansSC.zip</a>=E8=
+=BF=99=E4=B8=AA=E7=BD=91=E7=AB=99=EF=BC=8C=E6=80=BB=E6=98=AF=E4=B8=8B=E8=BD=
+=BD=E4=B8=8D=E6=88=90=E5=8A=9F=E3=80=82</p>
+<p>=E5=9B=A0=E6=AD=A4=E6=88=91=E6=8A=8A=E5=85=AC=E5=8F=B8=E5=B7=B2=E7=BB=8F=
+=E4=B8=8B=E8=BD=BD=E7=9A=84=E6=80=9D=E6=BA=90=E5=AD=97=E4=BD=93copy=E5=88=
+=B0linux pc=EF=BC=8C=E5=8D=95=E7=8B=AC=E5=AE=89=E8=A3=85=E7=9A=84=E3=80=82=
+=E5=B7=B2=E4=B8=8B=E8=BD=BD=E7=9A=84=E6=80=9D=E6=BA=90=E5=AD=97=E4=BD=93=EF=
+=BC=8C=E9=99=84=E4=BB=B6=E5=A6=82=E4=B8=8B=EF=BC=9A</p>
+<p><img height=3D"250" style=3D"margin: 2px; border: 1px solid #ddd; box-si=
+zing: border-box; vertical-align: text-bottom;" src=3D"b5cd24d7d0376da77297=
+331847a175a5" width=3D"250"></p>
+<p><span style=3D"color: rgb(255,0,0);"><strong>=E7=89=B9=E5=88=AB=E6=B3=A8=
+=E6=84=8F=EF=BC=9A=E4=BB=A5=E4=B8=8B=E6=AD=A5=E9=AA=A4=E9=9C=80=E8=A6=81=E9=
+=80=9A=E8=BF=87su root=E5=91=BD=E4=BB=A4=E5=88=87=E6=8D=A2=E5=88=B0root=E7=
+=94=A8=E6=88=B7=E4=B8=8B=E6=89=A7=E8=A1=8C=EF=BC=8C=E5=90=A6=E5=88=99=E5=8F=
+=AF=E8=83=BD=E4=BC=9A=E6=89=A7=E8=A1=8C=E5=A4=B1=E8=B4=A5=E3=80=82</strong>=
+</span></p>
+<p>=E5=B0=86=E4=BB=A5=E4=B8=8A=E5=AD=97=E4=BD=93=E8=A7=A3=E5=8E=8B=E5=88=B0=
+<code>/usr/share/fonts/SourceHanSansSc=E7=9B=AE=E5=BD=95=E4=B8=8B=EF=BC=8C=
+=E6=89=A7=E8=A1=8C=E5=A6=82=E4=B8=8B=E5=91=BD=E4=BB=A4:</code></p>
+<p><code>#=E5=9C=A8/usr/share/fonts/=E7=9B=AE=E5=BD=95=E4=B8=8B=E6=96=B0=E5=
+=BB=BA=E6=96=87=E4=BB=B6=E5=A4=B9SourceHanSansSc=E3=80=82</code></p>
+<p>&nbsp; cd /usr/share/fonts</p>
+<p>&nbsp; &nbsp;mkdir SourceHanSansSc</p>
+<p>#=E8=A7=A3=E5=8E=8B=E6=80=9D=E6=BA=90=E5=AD=97=E4=BD=93=E5=8C=85</p>
+<p>&nbsp;cd&nbsp;<code>/usr/share/fonts/SourceHanSansSc</code></p>
+<p>&nbsp;unzip notosanscjksc.zip&nbsp; -d&nbsp;<code>/usr/share/fonts/Sourc=
+eHanSansSc</code></p>
+<p><code>#=E5=88=B7=E6=96=B0=E7=B3=BB=E7=BB=9F=E5=AD=97=E4=BD=93=EF=BC=8C=
+=E4=BD=BF=E6=80=9D=E6=BA=90=E5=AD=97=E4=BD=93=E7=94=9F=E6=95=88</code></p>
+<p><code>&nbsp;mkfontscale&amp;&amp;mkfontdir&amp;&amp;fc-cache-fv</code></=
+p>
+<p><code>&nbsp;=E5=88=B7=E6=96=B0=E5=AE=8C=E6=88=90=E5=90=8E=EF=BC=8C=E5=8F=
+=AF=E4=BB=A5=E6=89=A7=E8=A1=8Cfc-list=E5=91=BD=E4=BB=A4=EF=BC=8C=E6=9F=A5=
+=E7=9C=8B=E6=80=9D=E6=BA=90=E5=AD=97=E4=BD=93=E5=B7=B2=E7=BB=8F=E5=AE=89=E8=
+=A3=85=E6=88=90=E5=8A=9F,=E5=A6=82=E4=B8=8B=E6=89=80=E7=A4=BA=EF=BC=9A</cod=
+e></p>
+<div class=3D"confluence-information-macro confluence-information-macro-inf=
+ormation">
+<p class=3D"title">=E6=80=9D=E6=BA=90=E5=AD=97=E4=BD=93=E5=AE=89=E8=A3=85=
+=E6=88=90=E5=8A=9F=E4=BC=9A=E6=9C=89=E7=B1=BB=E4=BC=BC=E4=BA=8E=E5=A6=82=E4=
+=B8=8B=E7=9A=84=E6=98=BE=E7=A4=BA</p>
+<span class=3D"aui-icon aui-icon-small aui-iconfont-info confluence-informa=
+tion-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p>/usr/share/fonts/SourceHanSansSc/SourceHanSansSC-Light_1.otf: Source Han=
+ Sans SC Light,=E6=80=9D=E6=BA=90=E9=BB=91=E4=BD=93,Source Han Sans SC:styl=
+e=3DRegular,Light<br>/usr/share/fonts/SourceHanSansSc/SourceHanSansSC-Norma=
+l_1.otf: Source Han Sans SC Normal,=E6=80=9D=E6=BA=90=E9=BB=91=E4=BD=93,Sou=
+rce Han Sans SC:style=3DRegular,Normal</p>
+</div>
+</div>
+<p><br></p>
+<h1 class=3D"auto-cursor-target" id=3D"LinuxCentOS7=E6=90=AD=E5=BB=BApython=
++sphinx+latex=E7=8E=AF=E5=A2=83-=E4=BA=94=E3=80=81=E4=BF=AE=E6=94=B9=E9=85=
+=8D=E7=BD=AE=E6=96=87=E4=BB=B6=EF=BC=8C=E4=BB=A5=E9=80=82=E9=85=8D=E6=96=B0=
+=E7=9A=84sphinx=E5=92=8Ctexlive">=E4=BA=94=E3=80=81=E4=BF=AE=E6=94=B9=E9=85=
+=8D=E7=BD=AE=E6=96=87=E4=BB=B6=EF=BC=8C=E4=BB=A5=E9=80=82=E9=85=8D=E6=96=B0=
+=E7=9A=84sphinx=E5=92=8Ctexlive</h1>
+<p>&nbsp; &nbsp; &nbsp;=E4=BF=AE=E6=94=B9=E5=90=8E=E7=9A=84=E9=85=8D=E7=BD=
+=AE=E6=96=87=E4=BB=B6=EF=BC=8C=E5=8F=82=E8=A7=81<a href=3D"/pages/viewpage.=
+action?pageId=3D12391098">=E6=A0=87=E5=87=86=E9=85=8D=E7=BD=AE=E6=96=87=E4=
+=BB=B6</a></p>
+<div class=3D"confluence-information-macro confluence-information-macro-inf=
+ormation">
+<p class=3D"title">=E7=89=B9=E5=88=AB=E8=AF=B4=E6=98=8E</p>
+<span class=3D"aui-icon aui-icon-small aui-iconfont-info confluence-informa=
+tion-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p>1. =E5=8E=8B=E7=BC=A9=E5=8C=85=E4=B8=AD=E7=9A=84=E9=85=8D=E7=BD=AE=E6=96=
+=87=E4=BB=B6=E9=83=BD=E5=81=9A=E4=BA=86=E4=BF=AE=E6=94=B9=EF=BC=8C=E5=BF=85=
+=E9=A1=BB=E8=BF=9B=E8=A1=8C=E6=9B=BF=E6=8D=A2=EF=BC=8C=E5=90=A6=E5=88=99=E5=
+=B0=86=E6=97=A0=E6=B3=95=E5=88=A9=E7=94=A8=E6=88=91=E4=BB=AC=E8=87=AA=E5=AE=
+=9A=E4=B9=89=E7=9A=84=E6=A8=A1=E6=9D=BF=E3=80=82</p>
+<p>2.conf.py=E5=8F=AF=E4=BB=A5=E8=A6=86=E7=9B=96=E5=90=8E=E5=86=8D=E4=BF=AE=
+=E6=94=B9=E6=88=90=E8=87=AA=E5=B7=B1=E5=B7=A5=E7=A8=8B=E7=9A=84=E5=86=85=E5=
+=AE=B9=EF=BC=8C=E4=B9=9F=E5=8F=AF=E4=BB=A5=E5=92=8C=E4=B9=8B=E5=89=8D=E7=9A=
+=84=E9=85=8D=E7=BD=AE=E6=96=87=E4=BB=B6=E6=AF=94=E8=BE=83=E5=85=B6=E5=8F=98=
+=E5=8C=96=E5=90=8E=EF=BC=8C=E5=8F=AA=E4=BF=AE=E6=94=B9=E5=8F=98=E6=9B=B4=E7=
+=9A=84=E9=83=A8=E5=88=86=E3=80=82</p>
+</div>
+</div>
+<p>=E7=BB=8F=E8=BF=87=E4=BB=A5=E4=B8=8A=E4=BA=94=E6=AD=A5=EF=BC=8CCentOS7=
+=E4=B8=8Bpython+sphinx+texlive=E7=8E=AF=E5=A2=83=E6=90=AD=E5=BB=BA=E5=AE=8C=
+=E6=88=90=EF=BC=8C=E7=94=9F=E6=88=90=E7=9A=84pdf=E5=92=8C=E4=B9=8B=E5=89=8D=
+=E7=9A=84pdf=E5=AE=8C=E5=85=A8=E7=9B=B8=E5=90=8C=E3=80=82ubuntu=E7=B3=BB=E7=
+=BB=9F=E6=90=AD=E5=BB=BA=E6=AD=A5=E9=AA=A4=E7=90=86=E8=AE=BA=E4=B8=8A=E5=BA=
+=94=E8=AF=A5=E7=9B=B8=E5=90=8C=EF=BC=8C=E5=8F=AA=E6=98=AF=E9=87=87=E7=94=A8=
+=E7=9A=84=E5=91=BD=E4=BB=A4=E4=B8=8D=E5=90=8C=EF=BC=8C=E5=8F=AF=E4=BB=A5=E5=
+=8F=82=E8=80=83=E6=96=87=E6=A1=A3=E4=B8=AD=E7=9A=84=E7=BD=91=E5=9D=80=EF=BC=
+=8C=E6=91=B8=E7=B4=A2ubuntu=E7=9A=84=E6=90=AD=E5=BB=BA=E6=AD=A5=E9=AA=A4=E3=
+=80=82</p>
+<p><br></p>
+    </div>
+</body>
+</html>
+------=_Part_824171_1351619799.1629186715132
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/b5cd24d7d0376da77297331847a175a5
+
+iVBORw0KGgoAAAANSUhEUgAAAPoAAAD6CAMAAAC/MqoPAAADAFBMVEX19fXv7+98fHx1dXV9fX23
+t7eenp5wcHDn5+f09PTz8/Pd3d2SkpLY2Njt7e3Q0NCioqJycnKqqqq7u7uurq6CgoKGhobOzs7D
+w8PR0dGNjY3Hx8fj4+PGxsbS0tKoqKgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAABYhwFnAAAEBUlEQVR42u3ca3OiSBSH8QM0NCp4iTEmE3L5xlv7CSc1m81lJ6lZ
+bxg0wKKiuUxqJ1ZlhOjzq7xoT06Jf7sFVEoRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+APgEjM1sxk0S652tsWk+bNET7CrbfXevbbpbFN2x1+m2nY08KHMjW3n3ap+zki2adf1b20s966W0
+w9GtjWxFxa8r9UMnMvc7afS+9i2K7ofWeJJKPPSjwqIXs5vr6qPF4Ej7he3mColeV6fLYcOq79Qe
+vtX8thz2Gq2i5kMVsdFw/DSOlGy1VyvYevamqW79/P/tXfAVlT7d6Bc265zNEZ3oRCd6Kd7CM+tE
+JzrRiU50ohOd6EQvV/RqtbpL0Wdhp/k3yZYdSqW6K9HHPTeb7Obihp+IpL3dmfWGhM0fhzL7RP4+
+FGkUMuuFfPGUmg/Sr1o1c/+Hn2bR7XHyf+3bFN0bVKcyEd8amYOpSG1cjQqIXsznEif62eUyrnn8
+i/Ztii5tVVsOfd2WXYouJ2az61YqbrepjmW3okvd9pRuKc82ZNeif2A75/BEL1n0eK1LP914i6Kb
+a4WJzW2Knq5zefCGonNROAAAAAAAAAAAn4/rl/4h/q5raaxquN5TFcRmEE9+0TL5DLOu99dfKOf+
+Z5x1N5BUqaO+1LxUtUPRR84wycdy9qCUmUg7UUod91ateTmIlNobZ1OaeOPJXvKl/6I+u3PnpJkJ
+7dnCMBNlpB/zmD/sm72xUhKJ8djvOL2ORNfDx+X49Mad+KYbDJOJkttVa16ufn/sOP38RwzskffX
+z/XJxcXF3fXBvGPUVZZVsujeaJT2RUntctC6nf8SwXI8kiS9ix4uo2k6Sp9a83Jb7MtBdLVYgmZy
+/1Zd5HBwcDkfJN9Grbd+6KDAHfr5abawtXizy2Dq593Za305NnSqvSAbnh1orVeteflML1/o7nma
+duVVfSHQXt4S5Nv6AB/0JbN7eD+Qs5vIMaLZjfGt9u9W48peei9O47vYOppGy1ZZlO1RlN/B9PDq
+0bbCl/W5aixZfd5y8yCByu6gTAt+wZdsMTa/9l6Mx39fWWINs7/7yvO9w7xck6eLDvQXcd6qN6Wz
+PFR2sv9fD8u14P35Kq5qM/B19nxqp74c7+tT40Qf7+tufS/Vq9a8XNGmW2tZ89Xsi6ODl/XZnbf1
+yeo1oWt+9gSV6eCmsgOTNIfx1DXCuJ2tx8ZUD/JxqvrWqPaP+L14+mf/jzhvzcuPriFJ6GXV2cFN
+p/3kRT3S9YfkyMwObmNj1qJHcfvf6Vad+AbntU2f9ZTkujnD+BrKbvJmR6/ynesCAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAA+PT+A1t7VUwWjOU0AAAAAElFTkSuQmCC
+------=_Part_824171_1351619799.1629186715132--
